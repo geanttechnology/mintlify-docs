@@ -1,13 +1,34 @@
 {
-  "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Mint Starter Kit",
+  "$schema": "https://mintlify.com/docs.json",
+  "name": "EvoCloud Platform",
+  "description": "EvoCloud aims to provide a platform as a product to streamline cloud-native application deployment and management in public cloud, intranet, edge and air-gapped environment.",
   "colors": {
     "primary": "#16A34A",
     "light": "#07C983",
     "dark": "#15803D"
   },
+  "logo": {
+    "light": "/logo/light.svg",
+    "dark": "/logo/dark.svg",
+    "href": "https://docs.evocloud.dev"
+  },
   "favicon": "/favicon.svg",
+
+  "navbar": {
+    "links": [
+      {
+        "label": "Support",
+        "href": "mailto:maintainers@evocloud.dev"
+      }
+    ],
+    "primary": {
+      "type": "button",
+      "label": "Visit website",
+      "href": "https://www.evocloud.dev"
+    }
+  },
+
   "navigation": {
     "tabs": [
       {
@@ -83,40 +104,31 @@
       ]
     }
   },
-  "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
-  },
-  "navbar": {
-    "links": [
-      {
-        "label": "Support",
-        "href": "mailto:hi@mintlify.com"
-      }
-    ],
-    "primary": {
-      "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
-    }
-  },
-  "contextual": {
-    "options": [
-     "copy",
-     "view",
-     "chatgpt",
-     "claude",
-     "perplexity",
-     "mcp",
-     "cursor",
-     "vscode"
-   ]
-  },
+
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
+      "website": "https://www.evocloud.dev",
+      "github": "https://github.com/evocloud-dev",
+      "linkedin": "https://linkedin.com/company/evocloud-dev",
+      "youtube": "https://www.youtube.com",
+      "x": "https://x.com/evocloud_dev",
+      "bluesky": "https://www.bluesky.com",
+      "telegram": "https://t.me/evocloud_paas",
+      "slack": "https://evocloudworkspace.slack.com"
     }
+  },
+
+  "contextual": {
+    "options": [
+      "copy",
+      "view",
+      "chatgpt",
+      "claude",
+      "perplexity",
+      "mcp",
+      "cursor",
+      "vscode"
+    ]
   }
+
 }
