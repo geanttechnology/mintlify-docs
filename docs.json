@@ -1,5 +1,5 @@
 {
-  "theme": "almond",
+  "theme": "maple",
   "$schema": "https://mintlify.com/docs.json",
   "name": "EvoCloud Platform",
   "description": "EvoCloud aims to provide a platform as a product to streamline cloud-native application deployment and management in public cloud, intranet, edge and air-gapped environment.",
